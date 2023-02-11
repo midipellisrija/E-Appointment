@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionWelcomepage">
+        <div class="container1">
+            <div class="d-flex flex-row justify-content-center">
+                <h1 class="heading1"> Online Doctor Appointment </h1>
+                <img src="https://as2.ftcdn.net/v2/jpg/00/96/48/11/1000_F_96481179_ANEpnLLHZZxtIezAh5k3tTKHO3VaFqjF.jpg" class="image1" />
+            </div>
+            <div class="d-flex flex-row">
+                <button class="button1 button2"> Home </button>
+                <hr />
+                <button class="button1" onclick="display('section1')"> Admin </button>
+                <hr />
+                <button class="button1" onclick="display('section11')"> Doctor </button>
+                <hr />
+                <button class="button1" onclick="display('section12')"> Patient </button>
+                <hr />
+            </div>
+        </div>
+        <div>
+            <img src="https://img.freepik.com/free-photo/doctor-nurses-special-equipment_23-2148980720.jpg?w=740&t=st=1675923983~exp=1675924583~hmac=0cd670a367c762d6220dd84bbba0023b786293bdea22ae6f0d2b305134c61b4b" class="image2" />
+            <h1 class="heading1 heading2"> Welcome to Online Doctor Appointment </h1>
+        </div>
+    </div>
+    <div id="section1">
+        <div class="container1">
+            <div class="d-flex flex-row justify-content-center">
+                <h1 class="heading1"> Online Doctor Appointment </h1>
+                <img src="https://as2.ftcdn.net/v2/jpg/00/96/48/11/1000_F_96481179_ANEpnLLHZZxtIezAh5k3tTKHO3VaFqjF.jpg" class="image1" />
+            </div>
+            <div class="d-flex flex-row">
+                <button class="button1" onclick="display('sectionWelcomepage')"> Home </button>
+                <hr />
+                <button class="button1 button2"> Admin </button>
+                <hr />
+                <button class="button1" onclick="display('section11')"> Doctor </button>
+                <hr />
+                <button class="button1" onclick="display('section12')"> Patient </button>
+                <hr />
+            </div>
+        </div>
+        <div>
+            <img src="https://img.freepik.com/free-photo/happy-laughing-female-doctors-hospital-gowns-row_186202-2186.jpg?w=740&t=st=1675926368~exp=1675926968~hmac=c2f9e64fc8f9a8bfe712a44b16e74948472509b66ac10da9cebc6ec0ce529546" class="image2" />
+            <div class="container">
+                <button class="btn btn-primary bon" onclick="display('section5')"> Patient's Registration </button>
+                <button class="btn btn-primary bon" onclick="display('section6')"> Doctor's Registration </button>
+            </div>
+        </div>
+    </div>
+    <div id="section2">
+        <div class="container1">
+            <div class="d-flex flex-row justify-content-center">
+                <h1 class="heading1"> Online Doctor Appointment </h1>
+                <img src="https://as2.ftcdn.net/v2/jpg/00/96/48/11/1000_F_96481179_ANEpnLLHZZxtIezAh5k3tTKHO3VaFqjF.jpg" class="image1" />
+            </div>
+            <div class="d-flex flex-row">
+                <button class="button1" onclick="display('sectionWelcomepage')"> Home </button>
+                <hr />
+                <button class="button1 button2"> Admin </button>
+                <hr />
+                <button class="button1" onclick="display('section3')"> View Doctors </button>
+                <hr />
+                <button class="button1" onclick="display('section13')"> Log Out </button>
+                <hr />
+            </div>
+        </div>
+        <div>
+            <img src="https://img.freepik.com/free-photo/happy-laughing-female-doctors-hospital-gowns-row_186202-2186.jpg?w=740&t=st=1675926368~exp=1675926968~hmac=c2f9e64fc8f9a8bfe712a44b16e74948472509b66ac10da9cebc6ec0ce529546" class="image2" />
+            <p class="heading1 heading2"> Welcome Admin </p>
+        </div>
+    </div>
+    <div id="section3">
+        <div class="container1">
+            <div class="d-flex flex-row justify-content-center">
+                <h1 class="heading1"> Online Doctor Appointment </h1>
+            </div>
+            <div class="d-flex flex-row">
+                <button class="button1" onclick="display('sectionWelcomepage')"> Home </button>
+                <hr />
+                <button class="button1" onclick="display('section2')"> Admin </button>
+                <hr />
+                <p class="button1 button2"> View Doctors </p>
+                <hr />
+                <button class="button1"> Log Out </button>
+                <hr />
+            </div>
+        </div>
+        <div class="bg-container d-flex flex-column">
+            <button class="btn text-primary" onclick="display('section4')">High blood pressure</button>
+            <button class="btn text-primary" onclick="display('section4')"> High cholesterol</button>
+            <button class="btn text-primary" onclick="display('section4')">Angina (chest pain)</button>
+            <button class="btn text-primary" onclick="display('section4')">Sudden cardiac arrest</button>
+            <button class="btn text-primary" onclick="display('section4')">Heart failure</button>
+            <button class="btn text-primary" onclick="display('section4')">Atherosclerosis</button>
+        </div>
+    </div>
+    <div id="section4">
+        <div class="container1">
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://as2.ftcdn.net/v2/jpg/04/13/98/99/1000_F_413989940_A4aUIRZetTJ3yRchaDT3TxTflXQOhJMi.jpg" class="image1" onclick="display('section3')" />
+                <h1 class="heading1"> Online Doctor Appointment </h1>
+            </div>
+        </div>
+        <div class="container12">
+            <h1 class="heading"> High blood Pressure </h1>
+            <h2 class="heading"> Cardiologist </h2>
+            <div class="d-flex flex-row">
+                <div class="d-flex flex-column">
+                    <button class="scon"> Doctor's Name </button>
+                    <hr />
+                    <button class="scon1" onclick="display('section7')"> Krish </button>
+                    <hr />
+                    <button class="scon1" onclick="display('section7')"> Ramesh </button>
+                    <hr />
+                </div>
+                <div class="d-flex flex-column">
+                    <button class="scon"> Mobile No. </button>
+                    <hr />
+                    <button class="scon1"> 9987536185 </button>
+                    <hr />
+                    <button class="scon1"> 9987098436 </button>
+                    <hr />
+                </div>
+                <div class="d-flex flex-column">
+                    <button class="scon"> E-mail </button>
+                    <hr />
+                    <button class="scon1"> Krish@gmail.com </button>
+                    <hr />
+                    <button class="scon1"> Rameshshiv@gmail.com </button>
+                    <hr />
+                </div>
+                <div class="d-flex flex-column">
+                    <button class="scon"> Location </button>
+                    <hr />
+                    <button class="scon1"> Hyderabad </button>
+                    <hr />
+                    <button class="scon1"> Hyderabad </button>
+                    <hr />
+                </div>
+
+            </div>
+            <button class="h-center" onclick="display('section8')"> Emergency </button>
+        </div>
+    </div>
+    <div id="section5">
+
+        <div class="cont d-flex flex-column">
+            <div class="d-flex flex-row">
+                <img src="https://as2.ftcdn.net/v2/jpg/04/13/98/99/1000_F_413989940_A4aUIRZetTJ3yRchaDT3TxTflXQOhJMi.jpg" class="image1" onclick="display('section1')" />
+                <h1 class="heading1 heading2"> Patient's Registration </h1>
+            </div>
+            <p> Name:
+                &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<input type="text">
+            </p>
+            <p> Password:
+                &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<input type="text">
+            </p>
+            <p> Email ID:
+                &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<input type="text">
+            </p>
+            <p> Date of Birth:
+                &ensp;&ensp;&ensp;<input type="text">
+            </p>
+            <p> Gender:
+                &ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text">
+            </p>
+            <p> Mobile Number:
+                &ensp;<input type="text">
+            </p>
+            <p> Address:
+                &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<input type="text">
+            </p>
+            <div class="d-flex flex-row ">
+                <p> Report: </p>
+                <button class="button3"> Choose file </button>
+            </div>
+            <button class="btn btn-primary" onclick="display('section9')"> Register </button>
+        </div>
+    </div>
+    <div id="section6">
+        <div class="cont d-flex flex-column">
+            <div class="d-flex flex-row">
+                <img src="https://as2.ftcdn.net/v2/jpg/04/13/98/99/1000_F_413989940_A4aUIRZetTJ3yRchaDT3TxTflXQOhJMi.jpg" class="image1" onclick="display('section1')" />
+                <h1 class="heading1 heading2"> Doctor's Registration </h1>
+            </div>
+            <p> Name:
+                &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<input type="text">
+            </p>
+            <p> Password:
+                &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<input type="text">
+            </p>
+            <p> Email ID:
+                &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<input type="text">
+            </p>
+            <p> Location:
+                &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<input type="text">
+            </p>
+            <p> Gender:
+                &ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ensp;<input type="text">
+            </p>
+            <p> Category:
+                &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<input type="text">
+            </p>
+            <p> Mobile Number:
+                &ensp;<input type="text">
+            </p>
+            <p> Timings:
+                &ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;&ensp;<input type="text">
+            </p>
+            <p> Fee:
+                &ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;<input type="text">
+            </p>
+            <p> Experience:
+                &ensp;&ensp;&ensp;&ensp;&ensp;<input type="text">
+            </p>
+            <div class="d-flex flex-row ">
+                <p> Report: </p>
+                <button class="button3"> Choose file </button>
+            </div>
+            <button class="btn btn-primary" onclick="display('section9')"> Resgister </button>
+        </div>
+    </div>
+    <div id="section7">
+        <div>
+            <div class="container1">
+                <div class="d-flex flex-row justify-content-center">
+                    <img src="https://as2.ftcdn.net/v2/jpg/04/13/98/99/1000_F_413989940_A4aUIRZetTJ3yRchaDT3TxTflXQOhJMi.jpg" class="image1" onclick="display('section4')" />
+                    <h1 class="heading1"> Online Doctor Appointment </h1>
+                    <img src="https://as2.ftcdn.net/v2/jpg/00/96/48/11/1000_F_96481179_ANEpnLLHZZxtIezAh5k3tTKHO3VaFqjF.jpg" class="image1" />
+                </div>
+            </div>
+            <div class="container7">
+
+                <h1 class="heading7"> Slot Booking </h1>
+
+                <div class="d-flex flex-row justify-content-center">
+                    <p>Timings:
+                        &ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;<input type="text">
+                    </p>
+                </div>
+                <p> Address:
+                    &ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;<input type="text">
+                </p>
+                <p> Date:
+                    &ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;&ensp;<input type="text">
+                </p>
+                <button class="btn btn-primary" onclick="display('section10')"> Book an Appointment </button>
+
+            </div>
+        </div>
+    </div>
+    <div id="section8">
+        <div class="container1">
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://as2.ftcdn.net/v2/jpg/04/13/98/99/1000_F_413989940_A4aUIRZetTJ3yRchaDT3TxTflXQOhJMi.jpg" class="image1" onclick="display('section4')" />
+                <h1 class="heading1"> Online Doctor Appointment </h1>
+                <img src="https://as2.ftcdn.net/v2/jpg/00/96/48/11/1000_F_96481179_ANEpnLLHZZxtIezAh5k3tTKHO3VaFqjF.jpg" class="image1" />
+            </div>
+        </div>
+        <div class="container7">
+            <h1 class="heading7"> Search </h1>
+            <p class="paragraph"> Category:
+                &ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text">
+            </p>
+            <p class="paragraph"> Location:
+                &ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text">
+            </p>
+            <p class="paragraph"> Time:
+                &ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ensp;&ensp;&ensp;<input type="text">
+            </p>
+            <button class="btn btn-primary" onclick="display('section14')"> Book a Slot </button>
+        </div>
+    </div>
+    <div id="section9">
+        <div class="container1">
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://as2.ftcdn.net/v2/jpg/04/13/98/99/1000_F_413989940_A4aUIRZetTJ3yRchaDT3TxTflXQOhJMi.jpg" class="image1" onclick="display('section1')" />
+
+                <h1 class="heading1"> Online Doctor Appointment </h1>
+                <img src="https://as2.ftcdn.net/v2/jpg/00/96/48/11/1000_F_96481179_ANEpnLLHZZxtIezAh5k3tTKHO3VaFqjF.jpg" class="image1" />
+            </div>
+            <div class="d-flex flex-row">
+                <button class="button1" onclick="display('sectionWelcomepage')"> Home </button>
+                <hr />
+                <button class="button1"> Admin </button>
+                <hr />
+                <button class="button1" onclick="display('section11')"> Doctor </button>
+                <hr />
+                <button class="button1" onclick="display('section12')"> Patient </button>
+                <hr />
+            </div>
+        </div>
+        <div class="container9">
+            <h1 class="heading1"> Admin Login </h1>
+            <p class="paragraph"> Username:
+                &ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;<input type="text">
+            </p>
+            <p class="paragraph"> Password:
+                &ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;&nbsp;<input type="text">
+            </p>
+            <button class="btn btn-primary" onclick="display('section2')"> Login </button>
+        </div>
+    </div>
+    <div id="section10">
+        <div class="container1">
+            <div class="d-flex flex-row justify-content-center">
+                <h1 class="heading1"> Online Doctor Appointment </h1>
+                <img src="https://as2.ftcdn.net/v2/jpg/00/96/48/11/1000_F_96481179_ANEpnLLHZZxtIezAh5k3tTKHO3VaFqjF.jpg" class="image1" />
+            </div>
+            <div class="d-flex flex-row">
+                <button class="button1" onclick="display('sectionWelcomepage')"> Home </button>
+                <hr />
+                <button class="button1" onclick="display('section2')"> Admin </button>
+                <hr />
+                <button class="button1"> Slot Detailes </button>
+                <hr />
+            </div>
+        </div>
+        <div class="container7">
+            <img src="https://as2.ftcdn.net/v2/jpg/01/14/50/77/1000_F_114507749_ibyIZqPx7Mi6cf6C45DBXggnZ9FjcfLA.jpg" class="image10" />
+            <h1 class="heading7"> Slot Booked </h1>
+        </div>
+    </div>
+    <div id="section11">
+        <div class="container1">
+            <div class="d-flex flex-row justify-content-center">
+                <h1 class="heading1"> Online Doctor Appointment </h1>
+                <img src="https://as2.ftcdn.net/v2/jpg/00/96/48/11/1000_F_96481179_ANEpnLLHZZxtIezAh5k3tTKHO3VaFqjF.jpg" class="image1" />
+            </div>
+            <div class="d-flex flex-row">
+                <button class="button1" onclick="display('sectionWelcomepage')"> Home </button>
+                <hr />
+                <button class="button1" onclick="display('section1')"> Admin </button>
+                <hr />
+                <button class="button1 button2"> Doctor </button>
+                <hr />
+                <button class="button1" onclick="display('section12')"> Patient </button>
+                <hr />
+            </div>
+        </div>
+        <div class="container7">
+            <div class="d-flex flex-row">
+                <h1 class="heading7"> 1. Archana: </h1>
+                <p class="paragraph"> Cardiologist - </p>
+                <p class="paragraph"> 5 Years of Experience </p>
+            </div>
+            <div class="d-flex flex-row">
+                <h1 class="heading7"> 2. Shiva: </h1>
+                <p class="paragraph"> Dentist - </p>
+                <p class="paragraph"> 5 Years of Experience </p>
+            </div>
+            <div class="d-flex flex-row">
+                <h1 class="heading7"> 3. Pavan: </h1>
+                <p class="paragraph"> Psychiatrists - </p>
+                <p class="paragraph"> 5 Years of Experience </p>
+            </div>
+            <div class="d-flex flex-row">
+                <h1 class="heading7"> 4. Sruthi: </h1>
+                <p class="paragraph"> Pediatrician - </p>
+                <p class="paragraph"> 5 Years of Experience </p>
+            </div>
+        </div>
+    </div>
+    <div id="section12">
+        <div class="container1">
+            <div class="d-flex flex-row">
+                <h1 class="heading1"> Online Doctor Appointment </h1>
+                <img src="https://as2.ftcdn.net/v2/jpg/00/96/48/11/1000_F_96481179_ANEpnLLHZZxtIezAh5k3tTKHO3VaFqjF.jpg" class="image1" />
+            </div>
+            <div class="d-flex flex-row">
+                <button class="button1" onclick="display('sectionWelcomepage')"> Home </button>
+                <hr />
+                <button class="button1" onclick="display('section1')"> Admin </button>
+                <hr />
+                <button class="button1" onclick="display('section11')"> Doctor </button>
+                <hr />
+                <button class="button1 button2"> Patients </button>
+            </div>
+        </div>
+        <div class="container7">
+            <div class="d-flex flex-row">
+                <h1 class="heading7"> 1. Jack: </h1>
+                <p class="paragraph"> High BP </p>
+                <button class="btn text-primary">Past Records </button>
+            </div>
+            <div class="d-flex flex-row">
+                <h1 class="heading7"> 2. Shivani: </h1>
+                <p class="paragraph"> Heat Problem </p>
+                <button class="btn text-primary"> Past Records </button>
+            </div>
+            <div class="d-flex flex-row">
+                <h1 class="heading7"> 3. Pavani: </h1>
+                <p class="paragraph"> Knee Pains </p>
+                <button class="btn text-primary"> Past Records </button>
+            </div>
+            <div class="d-flex flex-row">
+                <h1 class="heading7"> 4. Rakesh: </h1>
+                <p class="paragraph"> Teeth Prblem </p>
+                <button class="btn text-primary"> Past Records </button>
+            </div>
+        </div>
+    </div>
+    <div id="section13">
+        <div class="container1">
+            <div class="d-flex flex-row justify-content-center">
+                <h1 class="heading1"> Online Doctor Appointment </h1>
+                <img src="https://as2.ftcdn.net/v2/jpg/00/96/48/11/1000_F_96481179_ANEpnLLHZZxtIezAh5k3tTKHO3VaFqjF.jpg" class="image1" />
+            </div>
+            <div class="d-flex flex-row">
+                <button class="button1" onclick="display('sectionWelcomepage')"> Home </button>
+                <hr />
+                <button class="button1" onclick="display('section2')"> Admin </button>
+                <hr />
+                <button class="button1"> Slot Detailes </button>
+                <hr />
+            </div>
+        </div>
+        <div class="container7">
+            <img src="https://as2.ftcdn.net/v2/jpg/05/62/20/09/1000_F_562200980_aTIJVhdMNDMr6wSVHoTJQxqZcZmhMeJY.jpg" class="image10" />
+            <h1 class="heading7"> Logged Out</h1>
+        </div>
+    </div>
+    <div id="section14">
+        <div class="container1">
+            <div class="d-flex flex-row justify-content-center">
+                <h1 class="heading1"> Online Doctor Appointment </h1>
+                <img src="https://as2.ftcdn.net/v2/jpg/00/96/48/11/1000_F_96481179_ANEpnLLHZZxtIezAh5k3tTKHO3VaFqjF.jpg" class="image1" />
+            </div>
+            <div class="d-flex flex-row">
+                <button class="button1" onclick="display('sectionWelcomepage')"> Home </button>
+                <hr />
+                <button class="button1" onclick="display('section2')"> Admin </button>
+                <hr />
+                <button class="button1"> Slot Detailes </button>
+                <hr />
+            </div>
+        </div>
+        <div class="container7">
+            <h1 class="heading"> Doctor:
+                &ensp;<input type="text">
+            </h1>
+            <P class="paragraph"> Phone Number:
+                &ensp;<input type="text">
+            </P>
+            <button class="btn btn-primary" onclick="display('section10')"> Confirm </button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

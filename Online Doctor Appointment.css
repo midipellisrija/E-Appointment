@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container1 {
+    background-color: #28fc03;
+    padding: 10px;
+    text-align: center;
+}
+
+.container12 {
+    background-color: #34c3eb;
+    text-align: left;
+    padding: 10px;
+    height: 70vh;
+    width: 100vw;
+}
+
+.heading1 {
+    font-size: 20px;
+    font-style: italic;
+    font-family: "Playfair Display";
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+.heading {
+    text-align: left;
+    color: #a903fc;
+    font-size: 23px;
+    font-style: italic;
+    font-family: "Playfair Display";
+    font-weight: bold;
+}
+
+.button1 {
+    background-color: #28fc03;
+    border-width: 0px;
+    font-size: 20px;
+}
+
+.button2 {
+    color: #ffffff;
+}
+
+.button {
+    color: grey;
+    border-width: 0px;
+}
+
+.button3 {
+    background-color: grey;
+    border-width: 1px;
+    margin: 5px;
+    color: #ffffff;
+}
+
+.image1 {
+    height: 10vh;
+    width: 10vw;
+    margin: 10px;
+}
+
+.image10 {
+    height: 30vh;
+    width: 30vw;
+    margin: 20px;
+}
+
+.image2 {
+    height: 50vh;
+    width: 100vw;
+    margin: 20px;
+}
+
+.heading2 {
+    color: #a903fc;
+}
+
+.paragraph {
+    color: black;
+    text-align: left;
+    font-family: "Roboto";
+    margin: 10px;
+}
+
+.container {
+    text-align: center;
+}
+
+.bg-container {
+    height: 50vh;
+    width: 100vw;
+    text-align: left;
+}
+
+.cont {
+    padding: 10px;
+}
+
+.scon {
+    background-color: #eb34ba;
+    border-width: 1px;
+    border-color: #ffffff;
+    margin: 2px;
+}
+
+.scon1 {
+    background-color: #ffffff;
+    border-width: 1px;
+    border-color: #ffffff;
+    margin: 2px;
+}
+
+.h-center {
+    color: #eb3434;
+    background-color: #34c3eb;
+    font-family: "Roboto";
+    font-size: 20px;
+    border-width: 0px;
+}
+
+
+
+
+.container9 {
+    height: 70vh;
+    width: 100vw;
+    padding: 20px;
+}
+
+.container7 {
+    text-align: center;
+    height: 70vh;
+    width: 100vw;
+    padding: 20px;
+}
+
+.heading7 {
+    font-family: "Roboto";
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.bon {
+    margin: 5px;
+}
